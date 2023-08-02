@@ -1,0 +1,38 @@
+# Create user
+POST http://localhost:5000/user
+Content-Type: application/json 
+
+{ 
+  "name": " Sabbir 2"
+}
+### 
+
+# View all user
+GET http://localhost:5000/users
+Content-Type: application/json 
+
+### 
+
+
+# View user
+GET http://localhost:5000/user/1
+Content-Type: application/json 
+
+### 
+
+
+# Edit user
+PUT http://localhost:5000/user/1
+Content-Type: application/json 
+
+{ 
+  "name": " Sabbir Edit"
+}
+### 
+
+# Delete user
+DELETE http://localhost:5000/user/1
+Content-Type: application/json 
+
+### 
+
